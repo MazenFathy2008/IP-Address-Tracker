@@ -29,4 +29,19 @@
 }
 .icon-arrow-button:hover{
   background-color: hsl(0, 0%, 17%);
+  cursor: pointer;
+}
+.ip-input-field:hover{
+  cursor: pointer;
+}
+@media screen and (min-width : 768px) {
+  header{
+    background-image: url(../images/pattern-bg-desktop.png);
+  }
+  .ip-input-field{
+    width: 44%;
+  }
+  .icon-arrow-button{
+    width: 4%;
+  }
 }
