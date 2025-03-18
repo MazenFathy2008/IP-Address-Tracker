@@ -7,7 +7,7 @@
 .ip-input-field{
   width: 80%;
   height: 100%;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   border: none;
   outline: none;
   border-top-left-radius: 0.75rem ;
@@ -43,5 +43,25 @@
   }
   .icon-arrow-button{
     width: 4%;
+  }
+  ul{
+    flex-direction: row;
+    height: 7rem;
+    justify-content: center;
+    padding: 2rem 0;
+    box-sizing: border-box;
+    gap: 0;
+  }
+  ul li:not(:last-child) {
+    border-right: 2px solid hsl(0, 0%, 59%); 
+  }
+  li{
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 1.25rem;
+    box-sizing: content-box;
   }
 }
