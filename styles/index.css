@@ -1,0 +1,32 @@
+.search-container{
+  display: flex;
+  justify-content: center;
+  height: 2.7rem;
+  width: 100%;
+}
+.ip-input-field{
+  width: 80%;
+  height: 100%;
+  font-size: 1.25rem;
+  border: none;
+  outline: none;
+  border-top-left-radius: 0.75rem ;
+  border-bottom-left-radius: 0.75rem;
+  padding: 0.5rem;
+}
+.ip-input-field::placeholder{
+  font-size: 1rem;
+
+}
+.icon-arrow-button{
+  width: 12%;
+  height: 100%;
+  background-color:black ;
+  border: none;
+  border-top-right-radius: 0.75rem ;
+  border-bottom-right-radius: 0.75rem;
+  transition: 0.25s;
+}
+.icon-arrow-button:hover{
+  background-color: hsl(0, 0%, 17%);
+}
