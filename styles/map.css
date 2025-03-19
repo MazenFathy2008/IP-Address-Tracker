@@ -10,4 +10,26 @@
   .leaflet-control-zoom {
     visibility: visible;
   }
+  .map-button:hover{
+    user-select: none;
+    box-sizing: content-box;
+    padding: 0.2rem;
+    margin-top: -0.5rem;
+  }
+}
+.map-button{
+  margin-top: 10px;
+  margin-left: 1rem;
+  width: 7rem;
+  height: 2rem;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.125);
+  transition: 0.25s;
+}
+.map-button:active{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.225);
+  opacity: 0.8;
 }
