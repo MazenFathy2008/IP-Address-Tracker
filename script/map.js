@@ -9,7 +9,7 @@ let layerInfo = {
   id: "carto",
 };
 const blackIcon = L.icon({
-  iconUrl: "../images/icon-location.svg",
+  iconUrl: "images/icon-location.svg",
   iconSize: [30, 50],
   iconAnchor: [15, 50],
 });
