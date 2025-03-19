@@ -1,6 +1,6 @@
 export async function Iptraker(ip = "") {
   try {
-    const ipRespos = await fetch(`http://ipwho.is/${ip}`);
+    const ipRespos = await fetch(`https://ipwho.is/${ip}`);
     const ipInfo = await ipRespos.json();
     return ipInfo;
   } catch (e) {
