@@ -3,3 +3,11 @@
   width: 100vw;
   z-index: 50;
 }
+.leaflet-control-zoom {
+  visibility: hidden;
+}
+@media screen and (min-width : 768px) {
+  .leaflet-control-zoom {
+    visibility: visible;
+  }
+}
